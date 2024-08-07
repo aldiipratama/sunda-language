@@ -1,0 +1,12 @@
+mastikeun bilanganAkhir teh 10
+
+ti i nepi bilanganAkhir
+    mastikeun cekGenap teh i%2
+    lamun i leuwih gede ti 0
+        lamun cekGenap teh 0
+            tingalikeun "Bilangan "+i+" - Genap"
+        lamun henteu
+            tingalikeun "Bilangan "+i+" - Ganjil" 
+        geusan
+    geusan
+geusan

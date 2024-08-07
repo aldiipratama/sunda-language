@@ -1,0 +1,9 @@
+ti i nepi 5
+    mastikeun bintang teh ""
+
+    ti j nepi i
+        nu mana bintang teh bintang+"*"
+    geusan
+
+    spill bintang
+geusan

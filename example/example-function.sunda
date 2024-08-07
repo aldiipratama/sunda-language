@@ -1,0 +1,49 @@
+jadi ngeunaan my_story
+    mastikeun umur teh 21
+    tingalikeun "Umur maneh " + umur
+sakitu we
+
+jadi ngeunaan ngeloop sabarahaKali
+    ti i nepi sabarahaKali
+      lamun i leuwih gede ti 3
+        tingalikeun "loop ka " + i
+      atawa lamun i teh 3
+        tingalikeun "loop ka 3 : " + (i == 3)
+      geusan
+    geusan
+sakitu we
+
+jadi ngeunaan fungsi_param a
+    tingalikeun "a: " + a
+sakitu we
+
+jadi ngeunaan fungsiMultiParam a b c
+    tingalikeun "argumen kahiji: " + a
+    tingalikeun "argumen kadua: " + b
+    tingalikeun "argumen katilu: " + c
+sakitu we
+
+jalankeun my_story
+tingalikeun "\n"
+
+jalankeun ngeloop 20
+tingalikeun "\n"
+
+mastikeun nami teh "adi"
+
+jalankeun fungsi_param nami
+tingalikeun "\n"
+
+jalankeun fungsi_param "Rayhan"
+tingalikeun "\n"
+
+jalankeun fungsi_param 3
+tingalikeun "\n"
+
+jalankeun fungsiMultiParam 3 4 5
+tingalikeun "\n"
+
+mastikeun nami2 teh "budi"
+
+jalankeun fungsiMultiParam 2 nami2 "jeung Romeo ngucapkeun \"I love you\" ka Juliet"
+tingalikeun "\n"

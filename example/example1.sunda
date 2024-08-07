@@ -1,0 +1,13 @@
+mastikeun umur teh 21
+tingalikeun "umur maneh " + umur
+lamun umur leuwih gede ti 20
+  tingalikeun "maneh kolot"
+  mastikeun umurUrang teh umur + 10
+  tingalikeun "lamun urang umurna " + umurUrang
+  lamun umurUrang leuwih gede ti 30
+    tingalikeun "urang leuwih kolot"
+  geusan
+lamun henteu
+ tingalikeun "dasar bolon"
+geusan
+tingalikeun "geusan ah"

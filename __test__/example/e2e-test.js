@@ -1,27 +1,27 @@
 const { exec } = require("child_process");
 
 const defaultOptions = {
-  interpreter: "jaksel-interpreter.js",
-  target: "example/example1.jaksel",
+  interpreter: "sunda-interpreter.js",
+  target: "example/example1.sunda",
   contain: null
 }
 
-function e2eRunFile(options, doneCallback){
-  if(!options || typeof options !== 'object'){
+function e2eRunFile(options, doneCallback) {
+  if (!options || typeof options !== 'object') {
     // default options
     options = defaultOptions
   }
-  let selectedOption = {...defaultOptions}
+  let selectedOption = { ...defaultOptions }
   Object.assign(selectedOption, options)
 
   exec(`node ${selectedOption.interpreter} ${selectedOption.target}`, (err, stdout, stderr) => {
-    if(stdout){
+    if (stdout) {
       expect(stdout).toContain(selectedOption.contain)
     }
-    if(err){
+    if (err) {
       doneCallback(err)
     }
-    if(stderr){
+    if (stderr) {
       doneCallback(err)
     }
     doneCallback()

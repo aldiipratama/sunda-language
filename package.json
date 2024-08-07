@@ -1,10 +1,10 @@
 {
-  "name": "jaksel-language",
+  "name": "sunda-language",
   "version": "1.1.0",
-  "description": "Jaksel programming language",
-  "main": "jaksel-interpreter.js",
+  "description": "sunda programming language recoded form jaksel-language",
+  "main": "sunda-interpreter.js",
   "bin": {
-    "jaksel": "./jaksel-interpreter.js"
+    "sunda": "sunda-interpreter.js"
   },
   "scripts": {
     "test": "jest"
@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RioChndr/jaksel-language.git"
+    "url": "git+https://github.com/aldiipratama/sunda-language.git"
   },
-  "author": "Rio Chandra",
+  "author": "Aldi Pratama Recoded script From Rio Chandra",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/RioChndr/jaksel-language/issues"
+    "url": "https://github.com/aldiipratama/sunda-language/issues"
   },
-  "homepage": "https://github.com/RioChndr/jaksel-language#readme",
+  "homepage": "https://github.com/aldiipratama/sunda-language#readme",
   "devDependencies": {
     "jest": "^27.5.1"
   }

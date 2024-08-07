@@ -1,0 +1,17 @@
+mastikeun bilangan1 teh 0
+mastikeun bilangan2 teh 1
+mastikeun bilangan3 teh 0
+
+mastikeun output teh bilangan1 + ', ' + bilangan2
+
+ti i nepi 10
+
+    nu mana bilangan3 teh bilangan1 + bilangan2
+    nu mana output teh output + ", " + bilangan3
+    nu mana bilangan1 teh bilangan2
+    nu mana bilangan2 teh bilangan3
+
+geusan
+
+tingalikeun output
+

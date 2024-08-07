@@ -1,52 +1,58 @@
 ## Command
 
 Some command just like javascript, the only different is keyword and this language will translate to javascript and run as javascript. I know, this is just for fun.
+
 ### Variable
 
 Assign variable
+
 ```
-literally foo itu "hello world"
+mastikeun foo teh "hello world"
 // let foo = "hello world"
 
-seriously foo itu 123
+nyaan foo teh 123
 // const foo = 123
 ```
 
 Reassign variable
+
 ```
-whichis foo itu "hello world 2"
+nu mana foo teh "hello world 2"
 // foo = "hello world 2"
 ```
 
 **Boolean**
 
 ```
-literally foo itu positive vibes
+mastikeun foo teh positip
 // let foo = true
 
-literally foo itu worth it
+mastikeun foo teh pantes
 // let foo = true
 
-literally foo itu negative vibes
+mastikeun foo teh negatip
+// let foo = false
+
+mastikeun foo teh teu pantes
 // let foo = false
 ```
 
 ### Print / Console.log
+
 ```
-spill "Hello world"
+tingalikeun "Hello world"
 // console.log("Hello world")
 
-spill foo
+tingalikeun foo
 // console.log(foo)
 ```
-
 
 ### Condition
 
 ```
-kalo foo itu "Hello world"
-  spill "its hello world"
-udahan
+lamun foo teh "Hello world"
+  tingalikeun "its hello world"
+geusan
 
 // transform to
 if(foo == "Hello world"){
@@ -55,13 +61,13 @@ if(foo == "Hello world"){
 ```
 
 ```
-kalo foo lebih gede 3
-  spill "its bigger than 3"
-perhaps foo itu 3
-  spill "foo is 3"
-kalogak
-  spill "its smaller than 3"
-udahan
+lamun foo leuwih gede ti 3
+  tingalikeun "its bigger than 3"
+atawa lamun foo teh 3
+  tingalikeun "foo is 3"
+lamun henteu
+  tingalikeun "its smaller than 3"
+geusan
 
 // transform to
 if(foo > 3){
@@ -73,37 +79,40 @@ if(foo > 3){
 }
 ```
 
-Comparison : 
-- `itu`: ' == ',
-- `gak`: ' != ',
-- `lebih gede`: ' > ',
-- `lebih kecil`: ' < ',
-- `lebih gede sama dengan`: ' >= ',
-- `lebih kecil sama dengan`: ' <= '
+Comparison :
+
+- `teh`: ' == ',
+- `teu`: ' != ',
+- `leuwih gede ti`: ' > ',
+- `leuwih leutik ti`: ' < ',
+- `sarua gede ti`: ' >= ',
+- `sarua leutik ti`: ' <= '
 
 ### Loop
 
 #### **`For` loop**:
+
 ```
-fomo i endup 10
-  kalo i lebih gede 3
-    spill "loop ke " + i
-  udahan
-udahan
+ti i nepi 10
+  lamun i leuwih gede ti 3
+    tingalikeun "loop ka " + i
+  geusan
+geusan
 
 // transform to
 for (let i = 0; i < 10; i++) {
   if (i > 3){
-    console.log("loop ke " + i);
+    console.log("loop ka " + i);
   }
 }
 ```
 
 #### **`For of` loop**:
+
 ```
-fomo semua foo dari bar
-  spill foo
-udahan
+kabeh foo ti bar
+  tingalikeun foo
+geusan
 
 // transform to
 for (const foo of bar) {
@@ -112,60 +121,64 @@ for (const foo of bar) {
 ```
 
 #### **`break`** and **`continue`**:
+
 ```
-stop
+nepi dieu
 // break;
 
-skip
+sok we
 // continue;
 ```
 
 ### Function
+
 ```
-so about my_story
-    literally umur itu 21
-    spill "Umur lu " + umur
-thats it sih
+jadi ngeunaan my_story
+    mastikeun umur teh 21
+    tingalikeun "Umur maneh " + umur
+sakitu we
 
-call my_story
+jalankeun my_story
 
-so about fungsi_param_banyak a b c
-    spill "a: " + a
-    spill "b: " + b
-    spill "c: " + c
-thats it sih
+jadi ngeunaan fungsi_param_banyak a b c
+    tingalikeun "a: " + a
+    tingalikeun "b: " + b
+    tingalikeun "c: " + c
+sakitu we
 
-call fungsi_param_banyak 3 4 5
+jalankeun fungsi_param_banyak 3 4 5
 ```
 
 ### Async Function
+
 ```
-overthinking my_story
-    literally umur itu 21
-    spill "Umur lu " + umur
-thats it sih
+ngemutan my_story
+    mastikeun umur teh 21
+    tingalikeun "Umur maneh " + umur
+sakitu we
 
-call my_story
+jalankeun my_story
 
-so about fungsi_param_banyak a b c
-    spill "a: " + a
-    spill "b: " + b
-    spill "c: " + c
-thats it sih
+jadi ngeunaan fungsi_param_banyak a b c
+    tingalikeun "a: " + a
+    tingalikeun "b: " + b
+    tingalikeun "c: " + c
+sakitu we
 
-call fungsi_param_banyak 3 4 5
+jalankeun fungsi_param_banyak 3 4 5
 ```
 
 ### Try Catch & Exception
+
 ```
-trust issue
-  spill "Something wrong"
-  toxic "Error message"
-backstab
-  spill "Catch error"
-yaudahlahya
-  spill "finish finally"
-udahan
+teu percaya
+  tingalikeun "Something wrong"
+  kumaha atuh "Error message"
+kacida
+  tingalikeun "Catch error"
+baelah
+  tingalikeun "finish finally"
+geusan
 
 
 // transform to
@@ -176,5 +189,5 @@ try {
   console.log("Catch error");
 } finally {
   console.log("finish finally");
-} 
+}
 ```

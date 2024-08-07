@@ -1,0 +1,17 @@
+ti nomor nepi 100
+  lamun nomor teu 0
+    mastikeun hasil teh ""
+    nyaan fizz teh nomor % 3
+    nyaan buzz teh nomor % 5
+    lamun fizz teh 0
+      nu mana hasil teh hasil + "fizz"
+    geusan
+    lamun buzz teh 0
+      nu mana hasil teh hasil + "buzz"
+    geusan
+    lamun hasil teh ""
+      nu mana hasil teh nomor
+    geusan
+    spill hasil
+  geusan
+geusan

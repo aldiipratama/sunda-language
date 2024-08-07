@@ -1,0 +1,16 @@
+mastikeun jumlah teh 10
+tingalikeun "Jumlah: " + jumlah
+
+nu mana jumlah teh 11
+tingalikeun "Jumlah: " + jumlah
+
+mastikeun hirup teh pantes
+tingalikeun "hirup :" + hirup
+
+ti i nepi 10
+  lamun i leuwih gede ti 3
+    tingalikeun "loop ka " + i
+  atawa lamun i teh 3
+    tingalikeun "loop ka 3 : " + (i == 3)
+  geusan
+geusan
