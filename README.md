@@ -48,8 +48,6 @@ node sunda-interpreter.js example/example1.sunda
   - [Disclaimer](#disclaimer)
   - [Showcase](#showcase)
 
-[github-markdown-toc](https://github.com/ekalinin/github-markdown-toc)
-
 ## Example
 
 Example :
