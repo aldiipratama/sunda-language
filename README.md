@@ -98,3 +98,6 @@ This project just for fun, I don't want to hurt anyone. Just from idea "what if 
 ## Showcase
 
 Some cool project from you, submit your project like highlight text, sunda-to-js, etc. Make PR link to your repo !. Don't limit your creativity
+
+### Highlight Text Editor
+- [vscode-sunda-language-support](https://github.com/aldiipratama/vscode-jaksel-language-support) visual studio code extension for syntax highlighting, code snippet, and auto formatting
