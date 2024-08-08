@@ -47,7 +47,6 @@ node sunda-interpreter.js example/example1.sunda
   - [Command](#command)
   - [Disclaimer](#disclaimer)
   - [Showcase](#showcase)
-    - [Highlight Text Editor](#highlight-text-editor)
 
 [github-markdown-toc](https://github.com/ekalinin/github-markdown-toc)
 
