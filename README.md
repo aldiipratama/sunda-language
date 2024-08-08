@@ -6,7 +6,7 @@ This project recoded from jaksel-language!.
 
 # sunda Script
 
-sunda Script is a new programming language, very modern, easy to learn, using Indonesia-slang language. No programming experience required.
+sunda Script is a new programming language, very modern, easy to learn, using Indonesia-language. No programming experience required.
 
 Thank you for all your contributions, share, star, and everything.
 
